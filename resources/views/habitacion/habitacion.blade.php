@@ -2,7 +2,7 @@
 @section('contenido')
     <p style="font-family: 'Arial';text-decoration-color: #5a6268">REGISTRO / LISTA DE HABITACIONES</p>
     <button type="button" data-toggle="modal" data-target="#modal-habitacion" class="btn btn-success btn-fw"><i class="fa fa-bed fa-lg  text-white" ></i> Nueva Habitacion</button>
-    <br><br><div class="card">
+    <br><br>
 
         <div class="card-body">
             <p>HABITACIONES</p><hr style="width:100%;">
@@ -132,7 +132,6 @@
 
             </div>
         </div>
-    </div>
     @endsection
 
 @section('script')
