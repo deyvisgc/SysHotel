@@ -57,5 +57,7 @@ Route::get('Desactivar/{idcliente}','clientecontroller@Desactivar');
 Route::resource('tipo_Cliente','tipocontroller');
 Route::get('cargar/{idcategorias}','tipocontroller@cargarData');
 Route::post('actualizar/{idcategorias}','tipocontroller@Actualizar');
+Route::resource('contrato','contratocontroller');
+
 
 
