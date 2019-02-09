@@ -92,41 +92,72 @@
                       </div>
                   </div>
 
-                  <div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
+                  <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
                       <div class="form-group">
-                          <select id="mySelect" data-show-content="true" class="form-control">
-                              <option>Select..</option>
-                              <option data-content="<i class='fa fa-cutlery'></i> Cutlery"></option>
-                              <option data-content="<i class='fa fa-eye'></i> Eye"></option>
-                              <option data-content="<i class='fa fa-heart-o'></i> Heart"></option>
-                              <option data-content="<i class='fa fa-leaf'></i> Leaf"></option>
-                              <option data-content="<i class='fa fa-music'></i> Music"></option>
-                              <option data-content="<i class='fa fa-star'></i> Star"></option>
-                              <option data-content="<span class='badge badge-warning mt-1 ml-2 float-right'>3</span> More"></option>
+
+                              <select id="mySelect" class="form-control" data-show-icon="true" style="font-family: Arial ; font-size:13px; text-align:center; color: blue; font-weight: bold;">
+                                  <option value="0">N° Habitacion</option>
+                              </select>
+
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                      <div class="form-group">
+                          <select id="mySelect" class="form-control" data-show-icon="true" style="font-family: Arial ; font-size:13px; text-align:center; color: blue; font-weight: bold;">
+                              <option value="0">Nivel</option>
                           </select>
                       </div>
                   </div>
-                  <div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
+                  <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                      <div class="form-group">
+                          <select id="mySelect" class="form-control" data-show-icon="true" style="font-family: Arial ; font-size:13px; text-align:center; color: blue; font-weight: bold;">
+                             <option value="0">Tipo Habitacion</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
                       <div class="form-group">
                           <div class="input-group">
                               <div class="input-group-prepend">
-                                  <span class="input-group-text"><i class="fas fa-calendar-alt text-success fa-lg"></i></span>
+                                  <span class="input-group-text"><i class="fas fa-calendar-alt text-success fa-lg"> Fecha Inicio </i></span>
                               </div>
                               <input type="date" id="fecha_inicio"  class="form-control" style="font-family: Arial ; font-size:13px; text-align:center; color: blue; font-weight: bold;">
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
+                  <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
                       <div class="form-group">
                           <div class="input-group">
                               <div class="input-group-prepend">
-                                  <span class="input-group-text"><i class="fas fa-calendar-alt text-success fa-lg"></i></span>
+                                  <span class="input-group-text"><i class="fas fa-calendar-alt text-success fa-lg"> Fecha Fin</i></span>
                               </div>
                               <input type="date" id="fecha_fin" class="form-control" style="font-family: Arial ; font-size:13px; text-align:center; color: blue; font-weight: bold;">
                           </div>
                       </div>
                   </div>
-              </div>
+
+                  <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                      <div class="form-group">
+                          <div class="input-group">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fas fa-dollar-sign text-success fa-lg"> Vuelto</i></span>
+                              </div>
+                              <input type="number" id="con_vuelto" readonly value="0.00" class="form-control" style="font-family: Arial ; font-size:13px; text-align:center; color: blue; font-weight: bold;">
+                          </div>
+                      </div>
+                  </div>
+              </div><hr>
+
+                <div class="row">
+                    <div class="trans text-center">
+
+                            <button type="button" style="margin-left: 310px;" class="btn btn-inverse-danger" id="Contrato">Generar Contrato</button>
+
+
+                    </div>
+
+
+                </div>
 
         </div>
     </div>
